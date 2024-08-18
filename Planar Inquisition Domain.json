@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "PlanarInquisitionDomain",
+				"json": "PlanarInquisitonDomain",
 				"abbreviation": "PID",
-				"full": "Cleric: Planar Inquisition Domain",
+				"full": "Cleric: Planar Inquisiton Domain",
 				"authors": [
 					"Half-White Moustache"
 				],
@@ -20,17 +20,17 @@
 	},
 	"subclass": [
 		{
-			"name": "Planar Inquisition Domain",
-			"source": "PlanarInquisitionDomain",
-			"shortName": "Planar Inquisition",
+			"name": "Planar Inquisiton Domain",
+			"source": "PlanarInquisitonDomain",
+			"shortName": "Planar Inquisiton",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassFeatures": [
-				"Planar Inquisition Domain|Cleric||PlanarInquisition|PlanarInquisitionDomain|1",
-				"Channel Divinity: Inquisition's Emboldening|Cleric||PlanarInquisition|PlanarInquisitionDomain|2",
-				"Channel Divinity: Fractal Bond|Cleric||PlanarInquisition|PlanarInquisitionDomain|6",
-				"Potent Spellcasting|Cleric||PlanarInquisition|PlanarInquisitionDomain|8",
-				"Expansive Influence|Cleric||PlanarInquisition|PlanarInquisitionDomain|17"
+				"Planar Inquisiton Domain|Cleric||PlanarInquisiton|PlanarInquisitonDomain|1",
+				"Channel Divinity: Inquisition's Emboldening|Cleric||PlanarInquisiton|PlanarInquisitonDomain|2",
+				"Channel Divinity: Fractal Bond|Cleric||PlanarInquisiton|PlanarInquisitonDomain|6",
+				"Potent Spellcasting|Cleric||PlanarInquisiton|PlanarInquisitonDomain|8",
+				"Expansive Influence|Cleric||PlanarInquisiton|PlanarInquisitonDomain|17"
 			],
 			"subclassSpells": [
 				"Heroism",
@@ -43,6 +43,183 @@
 				"Otiluke's resilient sphere|xge",
 				"Passwall",
 				"Wall of Force"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Planar Inquisiton Domain",
+			"source": "PlanarInquisitonDomain",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
+			"level": 1,
+			"entries": [
+				"Clerics of the Planar Inquisiton Domain (somtimes called Clerics of Spacetime) are a new addition to the varied pantheon of clerics that came about with the discovery of Arcana thousands of years ago. With that came understanding of the flow of time and the matter of PlanarInquisiton space. Clerics of this domain the study of the rules of the cosmos, which by extension is the rule of the gods, as they created the cosmos we live in. This order of clerics attracts those drawn to knowledge and wonder, they may be the most travelled of the clerics, looking to document some of the worlds most weird and wonderful godly and arcane artefacts. The magic they have found with their deities is new, and some consider dangerous.",
+				"Clerics of the Planar Inquisiton Domain can be found side by side by wizards and sorcerers, understanding the way of the world and the magic that permeates through it. As a result, they are sometimes met with suspicion or animosity by clerics of more ancient traditions. Where they are welcome, Time and Space cleric are often known as great educators or sometimes even detectives, as they are most often driven to find the facts that are sometimes not evident to the layman.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Domain Spells|Cleric||PlanarInquisiton|PlanarInquisitonDomain|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Cleric||PlanarInquisiton|PlanarInquisitonDomain|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Abjure Evil|Cleric||PlanarInquisiton|PlanarInquisitonDomain|1"
+				}
+			]
+		},
+		{
+			"name": "Domain Spells",
+			"source": "PlanarInquisitonDomain",
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Planar Inquisiton Domain feature}",
+				"You gain domain spells at the cleric levels listed in the Planar Inquisiton Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+				{
+					"type": "table",
+					"caption": "Planar Inquisiton Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell protect from evil and good}, {@spell shield}"
+						],
+						[
+							"3rd",
+							"{@spell misty step}, {@spell vortex warp}"
+						],
+						[
+							"5th",
+							"{@spell counterspell}, {@spell leomund's tiny hut}"
+						],
+						[
+							"7th",
+							"{@spell dimension door}, Gate Seal"
+						],
+						[
+							"9th",
+							"{@spell circle of power}, {@spell wall of force}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Abjure Evil",
+			"source": "PlanarInquisitonDomain",
+			"page": 32,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Planar Inquisiton Domain feature}",
+				"When you use a spell or feature that targets one kind of creature you can also target aberrations, celestials, elementals, feys, fiends or undeads.",
+				"Additionally you can add your proficency bonus to any spell that requires you to roll an ability check that involves these creature types."
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "PlanarInquisitonDomain",
+			"page": 32,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Planar Inquisiton Domain feature}",
+				"When you choose this domain at 1st level, you gain proficiency with heavy armor and martial weapons. You also gain proficency in @skill{arcane} skill checks."
+			]
+		},
+		{
+			"name": "Channel Divinity: Inquisition's Emboldening",
+			"source": "PlanarInquisitonDomain",
+			"page": 32,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
+			"level": 2,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"{@i 2nd-level Planar Inquisiton Domain feature}",
+				"You can use your Channel Divinity to shelter your allies.As an action, you present your holy symbol, and a sphere of white light emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim light. The sphere moves with you, and it lasts for 1 minute or until you are incapacitated or die. Whenever a creature (including you) ends its turn in the sphere, you can grant that creature one of these benefits:",
+				"- The creature can roll a d4 and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the d4 no more than once per turn.",
+				"- You end one effect on it causing it to be charmed or frightened."
+			
+			]
+		},
+		{
+			"name": "Channel Divinity: Fractal Bond",
+			"source": "PlanarInquisitonDomain",
+			"page": 32,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
+			"entries": [
+				"{@i 6th-level Planar Inquisiton Domain feature}",
+				"You can use your Channel Divinity to draw upon the cosmic connections that bind all things. As an action, choose up to three creatures within 60 feet of you that are affected by a condition (charmed, frightened, paralyzed, or stunned) or are bound by a magical effect (such as {@spell hold person}). Each creature gains advantage on the next saving throw it makes to end one condition or magical effect on itself.",
+				"In addition, you gain the ability to see the invisible threads of magic that bind creatures to planes of existence. For the next hour, you have {@sense truesight} out to a range of 60 feet."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "PlanarInquisitonDomain",
+			"page": 32,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"{@i 8th-level Planar Inquisiton Domain feature}",
+				"You add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Expansive Influence",
+			"source": "PlanarInquisitonDomain",
+			"page": 32,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"{@i 17th-level Planar Inquisiton Domain feature}",
+				"The power of the cosmos flows through you, allowing you to channel divine energy with greater ease and frequency. You can use your Channel Divinity feature three times between rests, rather than once.",
+				"In addition, when you use your Channel Divinity, you can choose up to five creatures to be affected by its effects, instead of the usual three."
 			]
 		}
 	]
