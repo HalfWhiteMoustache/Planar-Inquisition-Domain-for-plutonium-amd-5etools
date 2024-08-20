@@ -200,7 +200,7 @@
 				"{@i 6th-level Planar Inquisition Domain feature}",
 				"Starting at 6th level, your divine sight allows you to see through deceptions and disguises. You have darkvision out to a range of 60 feet. If you already have darkvision and you can see in normal and magical darkness. Additionally, you can see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic out of the range of 30 feet."
 			]
-		},
+		}
 		{
 			"name": "Potent Spellcasting",
 			"source": "PlanarInquisitionDomain",
