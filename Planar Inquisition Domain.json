@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "PlanarInquisitionDomain",
+				"json": "PlanarInquisitonDomain",
 				"abbreviation": "PID",
-				"full": "Cleric: Planar Inquisition Domain",
+				"full": "Cleric: Planar Inquisiton Domain",
 				"authors": [
 					"Half-White Moustache"
 				],
@@ -20,27 +20,27 @@
 	},
 	"subclass": [
 		{
-			"name": "Planar Inquisition Domain",
-			"source": "PlanarInquisitionDomain",
-			"shortName": "Planar Inquisition",
+			"name": "Planar Inquisiton Domain",
+			"source": "PlanarInquisitonDomain",
+			"shortName": "Planar Inquisiton",
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassFeatures": [
-				"Planar Inquisition Domain|Cleric||Planar Inquisition|PlanarInquisitionDomain|1",
-				"Channel Divinity: Inquisition's Emboldening|Cleric||Planar Inquisition|PlanarInquisitionDomain|2",
-				"Channel Divinity: Fractal Bond|Cleric||Planar Inquisition|PlanarInquisitionDomain|6",
-				"Potent Spellcasting|Cleric||Planar Inquisition|PlanarInquisitionDomain|8",
-				"Expansive Influence|Cleric||Planar Inquisition|PlanarInquisitionDomain|17"
+				"Planar Inquisiton Domain|Cleric||PlanarInquisiton|PlanarInquisitonDomain|1",
+				"Channel Divinity: Inquisition's Emboldening|Cleric||PlanarInquisiton|PlanarInquisitonDomain|2",
+				"Channel Divinity: Fractal Bond|Cleric||PlanarInquisiton|PlanarInquisitonDomain|6",
+				"Potent Spellcasting|Cleric||PlanarInquisiton|PlanarInquisitonDomain|8",
+				"Expansive Influence|Cleric||PlanarInquisiton|PlanarInquisitonDomain|17"
 			],
 			"subclassSpells": [
 				"Heroism",
 				"Sanctuary",
-				"Fortune's Favor|egw",
+				"Fortunes Favor|egw",
 				"Warding Bond",
 				"Pulse Wave|egw",
 				"Sending",
 				"Gravity Sinkhole|egw",
-				"Otiluke's Resilient Sphere|xge",
+				"Otiluke's resilient sphere|xge",
 				"Passwall",
 				"Wall of Force"
 			]
@@ -48,45 +48,45 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Planar Inquisition Domain",
-			"source": "PlanarInquisitionDomain",
+			"name": "Planar Inquisiton Domain",
+			"source": "PlanarInquisitonDomain",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Planar Inquisition",
-			"subclassSource": "PlanarInquisitionDomain",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
 			"level": 1,
 			"entries": [
-				"Clerics of the Planar Inquisition Domain (sometimes called Clerics of Spacetime) are a new addition to the varied pantheon of clerics that came about with the discovery of Arcana thousands of years ago. With that came an understanding of the flow of time and the matter of Planar Inquisition space. Clerics of this domain study the rules of the cosmos, which by extension is the rule of the gods, as they created the cosmos we live in. This order of clerics attracts those drawn to knowledge and wonder. They may be the most traveled of the clerics, looking to document some of the world's most weird and wonderful godly and arcane artifacts. The magic they have found with their deities is new, and some consider it dangerous.",
-				"Clerics of the Planar Inquisition Domain can be found side by side with wizards and sorcerers, understanding the way of the world and the magic that permeates through it. As a result, they are sometimes met with suspicion or animosity by clerics of more ancient traditions. Where they are welcome, Time and Space clerics are often known as great educators or sometimes even detectives, as they are most often driven to find the facts that are sometimes not evident to the layman.",
+				"Clerics of the Planar Inquisiton Domain (sometimes called Clerics of Spacetime) are a new addition to the varied pantheon of clerics that came about with the discovery of Arcana thousands of years ago. With that came understanding of the flow of time and the matter of PlanarInquisiton space. Clerics of this domain study the rules of the cosmos, which by extension is the rule of the gods, as they created the cosmos we live in. This order of clerics attracts those drawn to knowledge and wonder; they may be the most traveled of the clerics, looking to document some of the world's most weird and wonderful godly and arcane artifacts. The magic they have found with their deities is new, and some consider it dangerous.",
+				"Clerics of the Planar Inquisiton Domain can be found side by side with wizards and sorcerers, understanding the way of the world and the magic that permeates through it. As a result, they are sometimes met with suspicion or animosity by clerics of more ancient traditions. Where they are welcome, Time and Space clerics are often known as great educators or sometimes even detectives, as they are most often driven to find the facts that are sometimes not evident to the layman.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Domain Spells|Cleric||Planar Inquisition|PlanarInquisitionDomain|1"
+					"subclassFeature": "Domain Spells|Cleric||PlanarInquisiton|PlanarInquisitonDomain|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Bonus Proficiencies|Cleric||Planar Inquisition|PlanarInquisitionDomain|1"
+					"subclassFeature": "Bonus Proficiencies|Cleric||PlanarInquisiton|PlanarInquisitonDomain|1"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Abjure Evil|Cleric||Planar Inquisition|PlanarInquisitionDomain|1"
+					"subclassFeature": "Abjure Evil|Cleric||PlanarInquisiton|PlanarInquisitonDomain|1"
 				}
 			]
 		},
 		{
 			"name": "Domain Spells",
-			"source": "PlanarInquisitionDomain",
+			"source": "PlanarInquisitonDomain",
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Planar Inquisition",
-			"subclassSource": "PlanarInquisitionDomain",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Planar Inquisition Domain feature}",
-				"You gain domain spells at the cleric levels listed in the Planar Inquisition Domain Spells table. See the Divine Domain class feature for how domain spells work.",
+				"{@i 1st-level Planar Inquisiton Domain feature}",
+				"You gain domain spells at the cleric levels listed in the Planar Inquisiton Domain Spells table. See the Divine Domain class feature for how domain spells work.",
 				{
 					"type": "table",
-					"caption": "Planar Inquisition Domain Spells",
+					"caption": "Planar Inquisiton Domain Spells",
 					"colLabels": [
 						"Cleric Level",
 						"Spells"
@@ -98,7 +98,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell protection from evil and good}, {@spell shield}"
+							"{@spell protect from evil and good}, {@spell shield}"
 						],
 						[
 							"3rd",
@@ -122,114 +122,107 @@
 		},
 		{
 			"name": "Abjure Evil",
-			"source": "PlanarInquisitionDomain",
+			"source": "PlanarInquisitonDomain",
 			"page": 32,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Planar Inquisition",
-			"subclassSource": "PlanarInquisitionDomain",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Planar Inquisition Domain feature}",
-				"When you use a spell or feature that targets one kind of creature, you can also target aberrations, celestials, elementals, feys, fiends, or undead.",
+				"{@i 1st-level Planar Inquisiton Domain feature}",
+				"When you use a spell or feature that targets one kind of creature you can also target aberrations, celestials, elementals, fey, fiends, or undead.",
 				"Additionally, you can add your proficiency bonus to any spell that requires you to roll an ability check that involves these creature types."
 			]
 		},
 		{
 			"name": "Bonus Proficiencies",
-			"source": "PlanarInquisitionDomain",
+			"source": "PlanarInquisitonDomain",
 			"page": 32,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Planar Inquisition",
-			"subclassSource": "PlanarInquisitionDomain",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Planar Inquisition Domain feature}",
-				"When you choose this domain at 1st level, you gain proficiency with heavy armor and martial weapons. You also gain proficiency in {@skill Arcana} skill checks."
+				"{@i 1st-level Planar Inquisiton Domain feature}",
+				"When you choose this domain at 1st level, you gain proficiency with heavy armor and martial weapons. You also gain proficiency in {@skill Arcana} checks."
 			]
 		},
 		{
 			"name": "Channel Divinity: Inquisition's Emboldening",
-			"source": "PlanarInquisitionDomain",
+			"source": "PlanarInquisitonDomain",
 			"page": 32,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Planar Inquisition",
-			"subclassSource": "PlanarInquisitionDomain",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
 			"level": 2,
 			"header": 2,
 			"consumes": {
 				"name": "Channel Divinity"
 			},
 			"entries": [
-				"{@i 2nd-level Planar Inquisition Domain feature}",
+				"{@i 2nd-level Planar Inquisiton Domain feature}",
 				"You can use your Channel Divinity to shelter your allies. As an action, you present your holy symbol, and a sphere of white light emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim light. The sphere moves with you, and it lasts for 1 minute or until you are incapacitated or die. Whenever a creature (including you) ends its turn in the sphere, you can grant that creature one of these benefits:",
-                "- The creature can roll a d4 and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the d4 no more than once per turn.",
-                "- You end one effect on it causing it to be charmed or frightened."
-			]
-		},
-		{
-			"name": "Eyes of the Inquisitor",
-			"source": "PlanarInquisitionDomain",
-			"page": 32,
-			"className": "Cleric",
-			"classSource": "PHB",
-			"subclassShortName": "Planar Inquisition",
-			"subclassSource": "PlanarInquisitionDomain",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"{@i 6th-level Planar Inquisition Domain feature}",
-				"You can cast {@spell detect magic} at will without expending a spell slot.",
-				"You also gain the ability to see through solid objects to a range of 30 feet for 1 minute. To you, solid objects within that range appear transparent and don't prevent light from passing through them. This vision does not allow you to see through creatures, and does not extend through magical objects.",
-				"Once you use this feature, you can't use it again until you finish a short or long rest."
+				"- The creature can roll a d4 and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the d4 no more than once per turn.",
+				"- You end one effect on it causing it to be charmed or frightened."
 			]
 		},
 		{
 			"name": "Channel Divinity: Fractal Bond",
-			"source": "PlanarInquisitionDomain",
+			"source": "PlanarInquisitonDomain",
 			"page": 32,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Planar Inquisition",
-			"subclassSource": "PlanarInquisitionDomain",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
 			"level": 6,
 			"header": 2,
+			"consumes": {
+				"name": "Channel Divinity"
+			},
 			"entries": [
-				"{@i 6th-level Planar Inquisition Domain feature}",
-				"As an action, you can use your Channel Divinity to form a bond with a willing creature you can see within 30 feet of you. For the next 10 minutes, you and the bonded creature can communicate telepathically with each other as long as you are on the same plane of existence. In addition, when the bonded creature takes damage, you can use your reaction to take the damage instead of the bonded creature. When you do so, the damage you take is reduced by an amount equal to your cleric level."
+				"{@i 6th-level Planar Inquisiton Domain feature}",
+				"You can use your Channel Divinity to link yourself to an enemy to learn its secrets. As an action, choose one creature you can see within 30 feet of you. That creature must make an Intelligence saving throw. On a failed save, it is magically linked to you for 1 minute or until the creature is no longer within 30 feet of you.",
+				"You can use your bonus action to learn one of the following things about the creature:",
+				"- The creature's surface thoughts (as if you had cast the detect thoughts spell).",
+				"- The creature's current hit points.",
+				"- The creature's highest saving throw.",
+				"- The creature's lowest saving throw.",
+				"You can use this feature twice. You regain expended uses of this feature after a short or long rest."
 			]
 		},
 		{
 			"name": "Potent Spellcasting",
-			"source": "PlanarInquisitionDomain",
+			"source": "PlanarInquisitonDomain",
+			"page": 32,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Planar Inquisition",
-			"subclassSource": "PlanarInquisitionDomain",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
 			"level": 8,
-			"header": 2,
+			"header": 1,
 			"entries": [
-				"{@i 8th-level Planar Inquisition Domain feature}",
+				"{@i 8th-level Planar Inquisiton Domain feature}",
 				"You add your Wisdom modifier to the damage you deal with any cleric cantrip."
 			]
 		},
 		{
 			"name": "Expansive Influence",
-			"source": "PlanarInquisitionDomain",
+			"source": "PlanarInquisitonDomain",
 			"page": 32,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"subclassShortName": "Planar Inquisition",
-			"subclassSource": "PlanarInquisitionDomain",
+			"subclassShortName": "PlanarInquisiton",
+			"subclassSource": "PlanarInquisitonDomain",
 			"level": 17,
-			"header": 2,
+			"header": 1,
 			"entries": [
-				"{@i 17th-level Planar Inquisition Domain feature}",
-				"When you deal damage to a creature that is charmed, frightened, or paralyzed, you deal additional damage equal to your Wisdom modifier. Additionally, the first time each turn you deal damage to one of these creatures, you can roll a d6 and add the result to the damage dealt."
+				"{@i 17th-level Planar Inquisiton Domain feature}",
+				"The range of your {@classFeature Channel Divinity: Fractal Bond|Cleric|PlanarInquisiton|6|PlanarInquisitonDomain} and {@classFeature Abjure Evil|Cleric|PlanarInquisiton|1|PlanarInquisitonDomain} features is increased to 60 feet. Additionally, your Divine Strike feature now applies to all melee attacks."
 			]
 		}
 	]
