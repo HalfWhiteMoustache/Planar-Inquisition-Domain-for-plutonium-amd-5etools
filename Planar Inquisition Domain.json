@@ -35,12 +35,12 @@
 			"subclassSpells": [
 				"Heroism",
 				"Sanctuary",
-				"Fortunes Favor|egw",
+				"Fortune's Favor|egw",
 				"Warding Bond",
 				"Pulse Wave|egw",
 				"Sending",
 				"Gravity Sinkhole|egw",
-				"Otiluke's resilient sphere|xge",
+				"Otiluke's Resilient Sphere|xge",
 				"Passwall",
 				"Wall of Force"
 			]
@@ -167,7 +167,8 @@
 			"entries": [
 				"{@i 2nd-level Planar Inquisition Domain feature}",
 				"You can use your Channel Divinity to shelter your allies. As an action, you present your holy symbol, and a sphere of white light emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim light. The sphere moves with you, and it lasts for 1 minute or until you are incapacitated or die. Whenever a creature (including you) ends its turn in the sphere, you can grant that creature one of these benefits:",
-                "- The creature can roll a d4 and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the d4 no more than once per turn.\n- You end one effect on it causing it to be charmed or frightened."
+                "- The creature can roll a d4 and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the d4 no more than once per turn.",
+                "- You end one effect on it causing it to be charmed or frightened."
 			]
 		},
 		{
@@ -182,11 +183,13 @@
 			"header": 2,
 			"entries": [
 				"{@i 6th-level Planar Inquisition Domain feature}",
-				"You gain the ability to see things others cannot. You can use your bonus action to grant yourself truesight with a range of 60 feet for 1 minute. Once you use this feature, you cannot use it again until you finish a short or long rest."
+				"You can cast {@spell detect magic} at will without expending a spell slot.",
+				"You also gain the ability to see through solid objects to a range of 30 feet for 1 minute. To you, solid objects within that range appear transparent and don't prevent light from passing through them. This vision does not allow you to see through creatures, and does not extend through magical objects.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
 			]
 		},
 		{
-			"name": "Eyes of the Inquisitor",
+			"name": "Channel Divinity: Fractal Bond",
 			"source": "PlanarInquisitionDomain",
 			"page": 32,
 			"className": "Cleric",
@@ -195,12 +198,11 @@
 			"subclassSource": "PlanarInquisitionDomain",
 			"level": 6,
 			"header": 2,
-			}
 			"entries": [
 				"{@i 6th-level Planar Inquisition Domain feature}",
-				"Starting at 6th level, your divine sight allows you to see through deceptions and disguises. You have darkvision out to a range of 60 feet. If you already have darkvision and you can see in normal and magical darkness. Additionally, you can see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic out of the range of 30 feet."
+				"As an action, you can use your Channel Divinity to form a bond with a willing creature you can see within 30 feet of you. For the next 10 minutes, you and the bonded creature can communicate telepathically with each other as long as you are on the same plane of existence. In addition, when the bonded creature takes damage, you can use your reaction to take the damage instead of the bonded creature. When you do so, the damage you take is reduced by an amount equal to your cleric level."
 			]
-		}
+		},
 		{
 			"name": "Potent Spellcasting",
 			"source": "PlanarInquisitionDomain",
@@ -216,8 +218,9 @@
 			]
 		},
 		{
-			"name": "Shield from Evil",
+			"name": "Expansive Influence",
 			"source": "PlanarInquisitionDomain",
+			"page": 32,
 			"className": "Cleric",
 			"classSource": "PHB",
 			"subclassShortName": "Planar Inquisition",
@@ -226,7 +229,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 17th-level Planar Inquisition Domain feature}",
-				"At 17th level, you and friendly creatures within 30 feet are under the effect of a protection from evil and good and non detection spells. Additionally creatures in the area are immune to magic that allows other creatures to read their thoughts, determine whether they are lying, know their alignment, or know their creature type and can only be telepathically communicated with only if they allow it."
+				"When you deal damage to a creature that is charmed, frightened, or paralyzed, you deal additional damage equal to your Wisdom modifier. Additionally, the first time each turn you deal damage to one of these creatures, you can roll a d6 and add the result to the damage dealt."
 			]
 		}
 	]
