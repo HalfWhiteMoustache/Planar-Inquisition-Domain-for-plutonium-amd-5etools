@@ -186,7 +186,7 @@
 			]
 		},
 		{
-			"name": "Channel Divinity: Fractal Bond",
+			"name": "Eyes of the Inquisitor",
 			"source": "PlanarInquisitionDomain",
 			"page": 32,
 			"className": "Cleric",
@@ -195,12 +195,10 @@
 			"subclassSource": "PlanarInquisitionDomain",
 			"level": 6,
 			"header": 2,
-			"consumes": {
-				"name": "Channel Divinity"
 			},
 			"entries": [
 				"{@i 6th-level Planar Inquisition Domain feature}",
-				"You can use your Channel Divinity to protect the connection between you and your allies, enforcing a defensive barrier that connects you all. As an action, you present your holy symbol, and choose any number of creatures within 30 feet of you. For 1 minute or until you lose concentration (as if you were concentrating on a spell), you and the chosen creatures are bonded by a fractal-like web of light. Whenever any bonded creature takes damage, you can use your reaction to magically take the damage instead. If you do so, the damage is divided evenly among all bonded creatures, rounded up. Once you use this feature, you cannot use it again until you finish a long rest."
+				"Starting at 6th level, your divine sight allows you to see through deceptions and disguises. You have darkvision out to a range of 60 feet. If you already have darkvision and you can see in normal and magical darkness. Additionally, you can see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic out of the range of 30 feet."
 			]
 		},
 		{
@@ -218,7 +216,7 @@
 			]
 		},
 		{
-			"name": "Expansive Influence",
+			"name": "Shield from Evil",
 			"source": "PlanarInquisitionDomain",
 			"className": "Cleric",
 			"classSource": "PHB",
@@ -228,7 +226,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 17th-level Planar Inquisition Domain feature}",
-				"You can choose a second Channel Divinity option from the Channel Divinity features offered by other cleric domains."
+				"At 17th level, you and friendly creatures within 30 feet are under the effect of a protection from evil and good and non detection spells. Additionally creatures in the area are immune to magic that allows other creatures to read their thoughts, determine whether they are lying, know their alignment, or know their creature type and can only be telepathically communicated with only if they allow it."
 			]
 		}
 	]
